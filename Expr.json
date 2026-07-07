@@ -1,0 +1,11 @@
+{
+    "name": "Expr",
+    "sys_includes": ["vector", "unordered_map", "string", "variant", "memory"],
+    "user_includes": ["Tokens/Token.hpp"],
+    "types": {
+        "Binary": "Expr left, Token oper, Expr right",
+        "Unary": "Token oper, Expr right",
+        "Literal": "Object value",
+        "Grouping": "Expr expr"
+    }
+}
